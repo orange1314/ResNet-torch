@@ -554,65 +554,6 @@ test_loader = DataLoader(dataset=test_dataset, batch_size=1000, shuffle=False)
 
 ```
 
-    Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
-    Failed to download (trying next):
-    HTTP Error 403: Forbidden
-    
-    Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
-    Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ./data\MNIST\raw\train-images-idx3-ubyte.gz
-    
-
-
-      0%|          | 0/9912422 [00:00<?, ?it/s]
-
-
-    Extracting ./data\MNIST\raw\train-images-idx3-ubyte.gz to ./data\MNIST\raw
-    
-    Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
-    Failed to download (trying next):
-    HTTP Error 403: Forbidden
-    
-    Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
-    Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ./data\MNIST\raw\train-labels-idx1-ubyte.gz
-    
-
-
-      0%|          | 0/28881 [00:00<?, ?it/s]
-
-
-    Extracting ./data\MNIST\raw\train-labels-idx1-ubyte.gz to ./data\MNIST\raw
-    
-    Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
-    Failed to download (trying next):
-    HTTP Error 403: Forbidden
-    
-    Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
-    Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ./data\MNIST\raw\t10k-images-idx3-ubyte.gz
-    
-
-
-      0%|          | 0/1648877 [00:00<?, ?it/s]
-
-
-    Extracting ./data\MNIST\raw\t10k-images-idx3-ubyte.gz to ./data\MNIST\raw
-    
-    Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
-    Failed to download (trying next):
-    HTTP Error 403: Forbidden
-    
-    Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
-    Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ./data\MNIST\raw\t10k-labels-idx1-ubyte.gz
-    
-
-
-      0%|          | 0/4542 [00:00<?, ?it/s]
-
-
-    Extracting ./data\MNIST\raw\t10k-labels-idx1-ubyte.gz to ./data\MNIST\raw
-    
-    
-
-
 ```python
 
 
